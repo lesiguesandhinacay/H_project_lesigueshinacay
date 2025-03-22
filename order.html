@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now - Honeywood Donuts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo"><h2>🍩 Honeywood Donuts</h2></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="H_project_lesigueshinacay.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="H_project_lesigueshinacay.html#menu" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="H_project_lesigueshinacay.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="order-section">
+            <h2>Place Your Order</h2>
+            <form action="#" method="POST" class="order-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="order">Select Your Order:</label>
+                <select id="order" name="order">
+                    <option value="donuts">Assorted Donuts</option>
+                    <option value="coffee">Coffee</option>
+                    <option value="cold-drinks">Cold Beverages</option>
+                    <option value="burger">Burger & Fries</option>
+                </select>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+
+                <label for="message">Special Requests:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit" class="submit-button">Submit Order</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Honeywood Donuts. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>    
